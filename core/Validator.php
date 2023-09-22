@@ -4,7 +4,6 @@ class Validator
 {
   public static function string($value)
   {
-    $value = trim($value);
     return trim($value === '');
   }
 
