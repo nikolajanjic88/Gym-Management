@@ -4,7 +4,8 @@ class Validator
 {
   public static function string($value)
   {
-    return trim($value === '');
+    $value = trim($value);
+    return $value === '';
   }
 
   public static function email($email)
